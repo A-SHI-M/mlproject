@@ -1,0 +1,21 @@
+import pandas
+import numpy
+import seaborn
+import matplotlib
+import sklearn
+import catboost
+import xgboost
+import dill
+import flask
+import sys
+
+print("pandas:", pandas.__version__)
+print("numpy:", numpy.__version__)
+print("seaborn:", seaborn.__version__)
+print("matplotlib:", matplotlib.__version__)
+print("scikit-learn:", sklearn.__version__)
+print("catboost:", catboost.__version__)
+print("xgboost:", xgboost.__version__)
+print("dill:", dill.__version__)
+print("Flask:", flask.__version__)
+print("Python:", sys.__version__)
